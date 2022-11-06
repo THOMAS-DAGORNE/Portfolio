@@ -1,0 +1,142 @@
+.rectangles-projets {
+
+    position: relative;
+    margin-top: 15vh;
+    grid-row-start: body;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.rectangles-projets a {
+    
+    text-decoration: none;
+    color: #000;
+}
+
+
+.rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5, .rectangle6, .rectangle7 {
+
+    width: 20%;
+    height: 550px;
+    border-radius: 20px;
+    background-color: #FFF;
+    transition: all 0.2s linear;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14 {
+
+    width: 100%;
+    height: 450px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+/*IMAGES PROJET PRO*/
+.img1 {
+    background-image: url(../../Images/java-ihm/Accueil.png);
+}
+
+.img2 {
+    background-image: url(../../Images/puissance4/menu.png);
+}
+
+.img3 {
+    background-image: url(../../Images/jeu-de-nim/Accueil.png);
+}
+
+.img4 {
+    background-image: url(../../Images/affiche-it+/afficheV13.png);
+}
+
+.img5 {
+    background-image: url(../../Images/snkrs-me/accueil.PNG);
+}
+
+.img6 {
+    background-image: url(../../Images/taquin/image_menus_win.png);
+}
+
+.img7 {
+    background-image: url(../../Images/it+/PageProfil.PNG);
+}
+
+
+/*IMAGES PROJET PERSO*/
+.img8 {
+    background-image: url(../../Images/minecraft/4.png);
+}
+
+.img9 {
+    background-image: url(../../Images/plans/10.jpg);
+}
+
+.img10 {
+    background-image: url(../../Images/logos/isis/isis-version4.png);
+}
+
+.img11 {
+    background-image: url(../../Images/ui-ux/default.PNG);
+}
+
+.img12 {
+    background-image: url(../../Images/affiche-burbigo/affiche-og-san-fin.png);
+}
+
+.img13 {
+    background-image: url(../../Images/instagram/3.jpg);
+}
+
+.img14 {
+    background-image: url(../../Images/articles/article-yamagata.PNG);
+}
+
+
+
+
+h2 {
+
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+.rectangle1:hover, .rectangle2:hover, .rectangle3:hover, .rectangle4:hover, .rectangle5:hover, .rectangle6:hover, .rectangle7:hover {
+
+    background-color: #D9B01A;
+    transform: scale(1.01);
+}
+
+
+/*****************************************************/
+/*                    RESPONSIVE                     */
+/*****************************************************/
+
+@media screen and (max-width:1200px) {
+    
+    .rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5, .rectangle6, .rectangle7 {
+
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .rectangle1, .rectangle2, .rectangle3, .rectangle4, .rectangle5, .rectangle6, .rectangle7 {
+
+        width: 90%;
+    }
+}
+

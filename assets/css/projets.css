@@ -1,0 +1,83 @@
+.rectangles-types {
+
+    position: relative;
+    margin-top: 25vh;
+    grid-row-start: body;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.rectangles-types a {
+    
+    text-decoration: none;
+    color: #000;
+}
+
+.rectangle1, .rectangle2 {
+
+    width: 40%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #FFF;
+    transition: all 0.2s linear;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.img1, .img2 {
+
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1 {
+
+    background-image: url(../../Images/taquin/menu-principal.png);
+}
+
+.img2 {
+
+    background-image: url(../../Images/minecraft/2.png);
+}
+
+h2 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.rectangle1:hover, .rectangle2:hover {
+
+    background-color: #D9B01A;
+    transform: scale(1.01);
+}
+
+
+
+/*****************************************************/
+/*                    RESPONSIVE                     */
+/*****************************************************/
+
+@media screen and (max-width:1500px) {
+    
+    .rectangle1, .rectangle2 {
+
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .rectangle1, .rectangle2 {
+
+        width: 90%;
+    }
+}
